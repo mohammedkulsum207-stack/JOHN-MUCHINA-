@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>John Muchina | Founder & Builder</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f9fc;
+      color: #111827;
+      line-height: 1.6;
+    }
+
+    header {
+      background: white;
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #e5e7eb;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .logo {
+      color: #2563eb;
+      font-size: 23px;
+      font-weight: 800;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #374151;
+      margin-left: 18px;
+      font-size: 14px;
+    }
+
+    .hero {
+      background: #111827;
+      color: white;
+      padding: 90px 7%;
+    }
+
+    .hero-content {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .hero small {
+      color: #60a5fa;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .hero h1 {
+      font-size: clamp(45px, 10vw, 80px);
+      line-height: 1;
+      margin: 18px 0;
+    }
+
+    .hero h2 {
+      font-size: 24px;
+      font-weight: 400;
+      color: #d1d5db;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      color: #d1d5db;
+      font-size: 18px;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 75px 7%;
+    }
+
+    section h2 {
+      font-size: 34px;
+      margin-bottom: 22px;
+    }
+
+    .about p,
+    .learning p {
+      max-width: 800px;
+      color: #4b5563;
+    }
+
+    .project {
+      background: white;
+      padding: 32px;
+      border-radius: 18px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
+    }
+
+    .project h3 {
+      color: #2563eb;
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+
+    .project p {
+      color: #4b5563;
+      margin-bottom: 15px;
+    }
+
+    .features {
+      padding-left: 22px;
+      margin: 20px 0;
+      color: #374151;
+    }
+
+    .features li {
+      margin-bottom: 7px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 25px;
+    }
+
+    .button {
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      padding: 12px 18px;
+      border-radius: 9px;
+      font-weight: bold;
+    }
+
+    .button.secondary {
+      background: #e5e7eb;
+      color: #111827;
+    }
+
+    .contact {
+      max-width: none;
+      background: white;
+    }
+
+    .contact-content {
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .contact p {
+      margin: 10px 0;
+    }
+
+    .contact a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #111827;
+      color: #9ca3af;
+      text-align: center;
+      padding: 30px;
+    }
+
+    @media (max-width: 650px) {
+      nav {
+        display: none;
+      }
+
+      .hero {
+        padding: 70px 7%;
+      }
+
+      section {
+        padding: 55px 7%;
+      }
+
+      .project {
+        padding: 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">John Muchina</div>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#learning">Learning</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+
+  <section class="hero">
+    <div class="hero-content">
+
+      <small>FOUNDER • BUILDER</small>
+
+      <h1>John Muchina</h1>
+
+      <h2>Turning ideas into working products.</h2>
+
+      <p>
+        I am a builder interested in technology, entrepreneurship,
+        and creating products that solve real problems.
+      </p>
+
+    </div>
+  </section>
+
+
+  <section id="about" class="about">
+
+    <h2>About Me</h2>
+
+    <p>
+      This is where I will tell my story in my own words — my background,
+      what motivated me to start building, and where I want to go next.
+    </p>
+
+  </section>
+
+
+  <section id="work">
+
+    <h2>Featured Project</h2>
+
+    <div class="project">
+
+      <h3>SmithX</h3>
+
+      <p>
+        SmithX is an AI-powered e-commerce platform designed to make
+        online commerce easier for sellers and customers.
+      </p>
+
+      <p>
+        I built a working MVP that demonstrates the core e-commerce
+        experience.
+      </p>
+
+      <ul class="features">
+        <li>Product marketplace</li>
+        <li>Product search</li>
+        <li>Product details</li>
+        <li>Shopping cart</li>
+        <li>Demo checkout</li>
+        <li>Seller product creation</li>
+        <li>Product image uploads</li>
+        <li>AI product-description assistant</li>
+        <li>Seller dashboard</li>
+        <li>Mobile-friendly interface</li>
+      </ul>
+
+      <p>
+        The MVP is live and can be tested directly.
+      </p>
+
+      <div class="buttons">
+
+        <a
+          class="button"
+          href="https://mohammedkulsum207-stack.github.io/SmithX-MVP-/"
+          target="_blank">
+          Live SmithX
+        </a>
+
+        <a
+          class="button secondary"
+          href="https://github.com/mohammedkulsum207-stack/SmithX-MVP-"
+          target="_blank">
+          SmithX GitHub
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id="learning" class="learning">
+
+    <h2>What I Learned</h2>
+
+    <p>
+      Building SmithX has given me experience turning an idea into a
+      working product, testing features, solving technical problems,
+      and improving the product through hands-on building.
+    </p>
+
+  </section>
+
+
+  <section id="contact" class="contact">
+
+    <div class="contact-content">
+
+      <h2>Contact</h2>
+
+      <p>
+        📱 Phone:
+        <a href="tel:+254759331097">
+          +254 759 331 097
+        </a>
+      </p>
+
+      <p>
+        📧 Email:
+        <a href="mailto:YOUR-EMAIL@example.com">
+          YOUR-EMAIL@example.com
+        </a>
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <footer>
+    © 2026 John Muchina • Founder & Builder
+  </footer>
+
+</body>
+</html>
